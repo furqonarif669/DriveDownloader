@@ -1,0 +1,29 @@
+Python
+
+pycache/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+PyInstaller Artifacts
+
+build/
+dist/
+*.spec
+
+Exception: Keep our specific build spec
+
+!build.spec
+
+App Specific Data (Do not upload these!)
+
+binaries/
+rclone.conf
+tasks.json
+tasks.json.tmp
+
+OS Files
+
+.DS_Store
+Thumbs.db
